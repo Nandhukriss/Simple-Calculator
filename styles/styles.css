@@ -1,0 +1,71 @@
+#cal {
+
+    width: 400px;
+    height: 600px;
+    background-color: #1d3849;
+    margin-left: 500px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #456f8e, #505c65);
+    margin-top: 70px ;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+
+    
+}
+
+#screen {
+
+    width: 80%;
+    height: 49px;
+    margin-top: 54px;
+    margin-left: 40px;
+    pointer-events: none;
+    font-size: medium;
+    box-shadow: 0 0 5px rgb(227, 226, 226);
+    border-radius: 7px;
+    border: solid white;
+}
+.btn{
+
+    width: 70px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background: antiquewhite;
+    border-radius: 7px;
+    font-size: medium;
+
+}
+.btn:hover{
+
+    background-color: aquamarine;
+    box-shadow: 0 0 5px rgb(227, 226, 226);
+    color: white;
+    width: 75px;
+    height: 50px;
+    border: solid white;
+    font-weight: solid;
+
+}
+.material-icons{
+    font-size:x-small
+}
+#del{
+
+    margin-left: 208px;
+}
+
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(252,252,252,1) 0%, rgba(102,178,193,1) 0%, rgba(194,243,252,1) 30%, rgba(220,247,252,1) 37%, rgba(143,235,253,1) 50%, rgba(252,252,252,1) 62%, rgba(165,238,253,1) 84%, rgba(97,195,232,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+#heading{
+
+    float: right;
+    margin-top: 8%;
+    margin-right: 16%;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: wheat;
+    font-size: xx-large;
+}

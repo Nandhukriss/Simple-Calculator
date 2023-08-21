@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div id="cal">
+            <button class="btn" id="btn" onclick="light()">☾</button> <h1 id="heading">CALCULATOR</h1>
+
+            <div class="output">
+                <input type="text" id="screen" />
+            </div>
+            <div class="buttons">
+
+                <div class="row">
+                    <button class="btn" onclick="clears()">CLR</button>
+                    <button class="btn"  id="del" onclick="backspace()">BS</button> 
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(7)">7</button>
+                    <button class="btn" onclick="btnclick(8)" >8</button>
+                    <button class="btn" onclick="btnclick(9)" >9</button>
+                    <button class="btn" onclick="btnclick('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(4)">4</button>
+                    <button class="btn" onclick="btnclick(5)" >5</button>
+                    <button class="btn" onclick="btnclick(6)" >6</button>
+                    <button class="btn" onclick="btnclick('*')">X</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick(1)">1</button>
+                    <button class="btn" onclick="btnclick(2)" >2</button>
+                    <button class="btn" onclick="btnclick(3)" >3</button>
+                    <button class="btn" onclick="btnclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="btnclick('.')">.</button>
+                    <button class="btn" onclick="btnclick(0)" >0</button>
+                    <button class="btn" onclick="btnclick('+')" >+</button>
+                    <button class="btn" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Script/script.js"></script>
+</body>
+
+</html>
